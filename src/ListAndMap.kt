@@ -1,7 +1,7 @@
 import java.util.TreeMap
 
 fun main() {
-    val list = listOf("发论文", 1, "挽回我爱的她")
+    val list = listOf("发论文", "找实习", "挽回我爱的她")
     for (item in list) {
         println(item)
     }

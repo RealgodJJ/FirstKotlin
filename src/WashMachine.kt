@@ -3,12 +3,12 @@ class WashMachine(var module: String, var size: Int) {
     var mode = 0
 
     fun openDoor() {
-        println("洗衣机的门已经打开了......")
+        println("${module}洗衣机的门已经打开了......")
         isDoorOpen = true
     }
 
     fun closeDoor() {
-        println("洗衣机的门已经关闭了......")
+        println("${module}洗衣机的门已经关闭了......")
         isDoorOpen = false
     }
 
