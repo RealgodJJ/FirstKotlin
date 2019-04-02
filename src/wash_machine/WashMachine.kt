@@ -1,6 +1,8 @@
+package wash_machine
+
 class WashMachine(var module: String, var size: Int) {
-    var isDoorOpen = true
-    var mode = 0
+    private var isDoorOpen = true
+    private var mode = 0
 
     fun openDoor() {
         println("${module}洗衣机的门已经打开了......")

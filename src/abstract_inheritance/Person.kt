@@ -1,4 +1,6 @@
-class Person:IMan,People() {
+package abstract_inheritance
+
+class Person: IMan, People() {
     override fun drink() {
         println("喝水了......")
     }

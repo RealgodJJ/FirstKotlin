@@ -1,4 +1,6 @@
-class Man(private val name: String): Human(name) {
+package abstract_interface_polymorphism
+
+class Man(private val name: String): Human() {
     override fun pee() {
         println("${name}站着Pee")
     }

@@ -1,3 +1,5 @@
+package wash_machine
+
 fun main() {
     val washMachine = WashMachine("小天鹅", 12)
     washMachine.openDoor()

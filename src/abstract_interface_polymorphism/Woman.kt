@@ -1,4 +1,6 @@
-class Woman(private val name: String) : Human(name) {
+package abstract_interface_polymorphism
+
+class Woman(private val name: String) : Human() {
     override fun eat() {
         println("${name}小口吃饭")
     }

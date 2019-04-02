@@ -1,3 +1,5 @@
+package inherit
+
 class Son : Father() {
     override fun action() {
         println("在公共场合很有礼貌！")
