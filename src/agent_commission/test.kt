@@ -1,5 +1,5 @@
 fun main() {
-    var son = BigHeadSon()
+    var son = BigHeadSon
     son.washing()
 
     println("==============================")
